@@ -220,3 +220,6 @@ toc:
   landing_page: /docs/tasks/extend-kubectl/kubectl-plugins/
   section:
   - docs/tasks/extend-kubectl/kubectl-plugins.md
+
+- title: Troubleshooting
+  path: /docs/tasks/debug-application-cluster/troubleshooting/

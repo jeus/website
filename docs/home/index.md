@@ -44,14 +44,11 @@ Kubernetes is an open source system for managing [containerized applications](ht
 across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.
 The open source project is hosted by the Cloud Native Computing Foundation ([CNCF](https://www.cncf.io/about)).
 
-<div class="browsecolumn" markdown="1">
+<div class="aboutcolumn" markdown="1">
 [Download Current Release](/docs/imported/release/notes/) 
 </div>
-<div class="browsecolumn" markdown="1">
+<div class="aboutcolumn" markdown="1">
 [Supported Doc Versions](/docs/home/supported-doc-versions/) 
-</div>
-<div class="browsecolumn" markdown="1">
-  [Troubleshooting](/docs/tasks/debug-application-cluster/troubleshooting/)
 </div>
 
 </div>
@@ -114,7 +111,7 @@ The open source project is hosted by the Cloud Native Computing Foundation ([CNC
 
 <div class="browsedocs">
 
-{% assign sections = "setup,concepts,tasks,tutorials,reference" | split: "," %}
+{% assign sections = "setup,concepts,tasks,tutorials,reference,docs-home" | split: "," %}
 
 {% for section_id in sections %}
 
@@ -153,9 +150,12 @@ The open source project is hosted by the Cloud Native Computing Foundation ([CNC
         </div>
       {% endif %}
     {% endfor %}
-    </div>
-  </div>
+
+    </div><!-- end pages -->
+
+  </div><!-- end browsesection -->
 
 {% endfor %}
-</div>
-</div>
+
+</div><!-- end browsedocs -->
+</div><!-- end browsedocsWrapper -->
